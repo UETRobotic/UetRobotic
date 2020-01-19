@@ -1,8 +1,8 @@
 <launch>
   <env name="GAZEBO_RESOURCE_PATH" value="$(find turtlebot3_autorace_2019)/models/turtlebot3_autorace_part/ground_picture" />
   <!-- set the position of the robot  -->
-  <arg name="x_pos" default="0.245"/>
-  <arg name="y_pos" default="-1.787"/>
+  <arg name="x_pos" default="0.22984"/>
+  <arg name="y_pos" default="-1.74732"/>
   <arg name="z_pos" default="0"/>
   
   <include file="$(find gazebo_ros)/launch/empty_world.launch">
